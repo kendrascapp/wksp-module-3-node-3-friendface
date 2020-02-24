@@ -83,6 +83,43 @@ codeblock {
   margin: 12px 32px 6px 0;
   padding: 12px 14px; }
 
+.mainHeader {
+  width: 100vw;
+  border: 15px solid forestgreen;
+  background-color: forestgreen;
+  padding: 30px;
+  margin: 20px;
+  width: 350px;
+  position: absolute; }
+
+.site-title {
+  color: white;
+  font-family: Impact;
+  font-size: 60px;
+  text-align: center; }
+
+.signin-form {
+  border: 1px solid darkgrey;
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column; }
+
+.friends {
+  margin: 0 auto;
+  display: flex; }
+
+.friend {
+  border-radius: 50%;
+  width: 300px;
+  margin: 50px; }
+
+.user {
+  width: 100%;
+  height: auto; }
+
 body {
   background: #fafafa;
   display: flex;
@@ -96,7 +133,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: slategray; }
     .main.four-oh-four .title {
       font-size: 96px; }

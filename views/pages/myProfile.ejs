@@ -1,0 +1,7 @@
+<%-include('../partials/header') %>
+<img class='user' src="<%= currentUser.avatarUrl %>" />
+<ul class="friends">
+  <% friendArray.forEach(friend => { %>
+  <%-include('../partials/userImage', {givenUser: friend}) %>
+  <% }); %>
+</ul>
